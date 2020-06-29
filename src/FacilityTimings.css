@@ -1,0 +1,61 @@
+.facility-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.facility-modal-main {
+  position:fixed;
+  background: white;
+  width: 100%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.facilityTiming {
+    margin: 0 auto;
+}
+
+.facilityTiming > thead > tr > td {
+    text-align: left;
+    font-weight: 600;
+}
+
+.facilityTiming td {
+    padding: 5px 10px;
+}
+
+.facilityTiming input[type='text']{
+    width: 120px;
+}
+
+.facilityButtons{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 7px;
+    width: 120px;
+}
+
+.applyAll{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 4px 7px;
+}
+
+.facilityTiming input[type='text'] {
+    border-radius: 5px;
+    border: 0.3px solid lightgray;
+}
+
+.radioBtn{
+    display: inline-block;
+    margin-left: 10px;
+}
