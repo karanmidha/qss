@@ -106,7 +106,7 @@ class AddAddress extends React.PureComponent{
                               <option value="DE">DE</option>
                             </select></p>
                             <p><label for='zipcode'>Zip Code:</label><input type='text' id='zipcode' name='zipcode' min='5' pattern='[a-zA-Z0-9]{5,10}' title="5-10 digit alpahnumeric zip only"/></p>
-                            <p><label for='phone'>Phone Number:</label><input type='text' id='phone' name='phone'/></p>
+                            <p><label for='phone'>Phone Number:</label><input type='text' id='phone' name='phone' pattern='[0-9]{10}' title="Please enter 10 digit number"/></p>
                             <p><label for='timeZone'>TimeZone:</label>
                             <select id="timeZone" name="timeZone">
                               <option value="+4.00 GMT">+4.00 GMT</option>
